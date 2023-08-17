@@ -68,7 +68,7 @@
   cursor: pointer;
 }
 
-.LoginPage{
+.LoginPageBtn{
   display: inline-block;
   font-size:30px;
   color: black;
@@ -77,7 +77,7 @@
   cursor: pointer;
 }
 
-.SignUpPage{
+.SignUpPageBtn{
   display: inline-block;
   font-size:30px;
   color: black;
@@ -104,7 +104,7 @@
   cursor: pointer;
 }
 
-.DailySignPage{
+.DailySignPageBtn{
   display: inline-flex;
   font-size:25px;
   color: black;
@@ -113,7 +113,7 @@
   cursor: pointer;
 }
 
-.HospitalSignPage{
+.HospitalSignPageBtn{
   display: inline-block;
   font-size:25px;
   color: black;
@@ -123,7 +123,7 @@
 
 }
 
-.SchoolSignPage{
+.SchoolSignPageBtn{
   display: inline-block;
   font-size:25px;
   color: black;
@@ -133,7 +133,7 @@
 
 }
 
-.DownloadPage{
+.BoardPageBtn{
   display: inline-block;
   font-size:25px;
   color: black;
@@ -142,7 +142,7 @@
   cursor: pointer;
 }
 
-.NoticePage{
+.NoticePageBtn{
   display: inline-block;
   font-size:25px;
   color: black;
@@ -151,7 +151,7 @@
   cursor: pointer;
 }
 
-.ServicePage{
+.ServicePageBtn{
   display: inline-block;
   font-size:25px;
   color: black;

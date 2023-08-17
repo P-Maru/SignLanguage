@@ -9,8 +9,14 @@ import SignUpPage from "./page/SignUpPage.js";
 
 import DailySignPage from "./page/DailySignPage.js";
 import HospitalSignPage from "./page/HospitalSignPage.js";
+import DoctorSignlist from "./page/DoctorSignlist.js";
+import DoctorSign from "./page/DoctorSign.js";
+import PatientSignlist from "./page/PatientSignlist.js";
+import DrugSignlist from "./page/DrugSignlist.js";
+import MedicalEquipmentSignlist from "./page/MedicalEquipmentSignlist.js";
 import SchoolSignPage from "./page/SchoolSignPage.js";
-import DownloadPage from "./page/DownloadPage.js";
+import BoardPage from "./page/BoardPage.js";
+import WriteBoard from "./page/WriteBoard.js";
 import NoticePage from "./page/NoticePage.js";
 
 import Service from "./page/Service.js";
@@ -36,8 +42,17 @@ function App() {
             path="/HospitalSignPage"
             element={<HospitalSignPage />}
           ></Route>
+          <Route path="/DoctorSignlist" element={<DoctorSignlist />}></Route>
+          <Route path="/DoctorSign" element={<DoctorSign />}></Route>
+          <Route path="/PatientSignlist" element={<PatientSignlist />}></Route>
+          <Route path="/DrugSignlist" element={<DrugSignlist />}></Route>
+          <Route
+            path="/MedicalEquipmentSignlist"
+            element={<MedicalEquipmentSignlist />}
+          ></Route>
           <Route path="/SchoolSignPage" element={<SchoolSignPage />}></Route>
-          <Route path="/DownloadPage" element={<DownloadPage />}></Route>
+          <Route path="/BoardPage" element={<BoardPage />}></Route>
+          <Route path="/WriteBoard" element={<WriteBoard />}></Route>
           <Route path="/NoticePage" element={<NoticePage />}></Route>
           <Route path="/Service" element={<Service />}></Route>
           <Route path="/SignRecPage" element={<SignRecPage />}></Route>

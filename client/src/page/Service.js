@@ -15,18 +15,13 @@ function Service() {
     >
       <div className="Service">
         <div className="Service_Left">
-          <Link to="SignRecPage">
+          <Link to="/SignRecPage">
             <button className="Service_LeftBtn">수어 인식</button>
           </Link>
         </div>
         <div className="Service_Center">
-          <Link to="ObjectRecPage">
+          <Link to="/ObjectRecPage">
             <button className="Service_CenterBtn">사물 인식</button>
-          </Link>
-        </div>
-        <div className="Service_Right">
-          <Link to="DocuRecPage">
-            <button className="Service_RightBtn">문서 인식</button>
           </Link>
         </div>
       </div>

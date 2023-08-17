@@ -1,11 +1,11 @@
-.NoticePage{
+.BoardPage{
   width: 92%;
   height: 92vh;
   display: flex;
   margin: 0 auto;
 }
 
-.NoticeleftSide{
+.BoardleftSide{
   width: 20%;
   border-right: 3px solid black;
   display: block;
@@ -14,7 +14,7 @@
   text-align: center;
 }
 
-.NoticeleftSideBtn{
+.BoardleftSideBtn{
   display: flex;
   justify-content: space-between;  
   position: relative;
@@ -41,18 +41,22 @@
   
 }
 
-#NoticeTitle{
+#BoardTitle{
   margin-top: 20%;
   font-size: 30pt;
 }
 
-.noticelist_div{
-  text-align: center;
-  margin-top: 10%;
+.BoardrightSide{
   width: 80%;
+  margin-top: 10%;
 }
 
-.noticename{
+.boardlist_div{
+  text-align: center;
+  width: 100%;
+}
+
+.boardname{
   font-size:20px;
   color: black;
   font-family: 'Jua', sans-serif;
@@ -60,20 +64,20 @@
   cursor: pointer;
 }
 
-.noticename:hover{
+.boardname:hover{
   color : #FFCBA4;
   border-bottom: 2px solid black;
 }
 
-.noticetable{
+.boardtable{
   text-align: center;
   width: 100%;
 }
 
-.noticehead{
+.boardhead{
   font-size: 30px;
 }
 
-.noticebody{
+.boardbody{
   font-size: 20px;
 }

@@ -41,11 +41,11 @@
   
 }
 
-.PatientSignlistBtn{
+#PatientSignlistBtn{
   display: inline-block;
   width: fit-content;
   font-size:35px;
-  color: black;
+  color: #FFCBA4;
   font-family: 'Jua', sans-serif;
   text-decoration: none;
   cursor: pointer;
@@ -89,4 +89,44 @@
 #HospitalTitle{
   margin-top: 20%;
   font-size: 30pt;
+}
+
+.HospitalrightSide{
+  display: inline-block;
+  margin-top: 3%;
+  position: relative;
+  flex-direction: column;
+  font-weight: bold;
+  height: auto;
+  width: 80%;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.DoctorSignContent{
+  display: flex;
+  border-bottom: 3px solid black;
+  margin-top: 5%;
+  height: 200px;
+}
+
+.DoctorSignExplain{
+  font-size:30px;
+  color: black;
+  font-family: 'Jua', sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 4%;
+  margin-left: 5%;
+}
+
+.DoctorSignTitle{
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.SignExplain{
+  font-size:15px;
+  color: black;
 }

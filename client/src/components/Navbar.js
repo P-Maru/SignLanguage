@@ -21,35 +21,29 @@ function Navbar() {
           </div>
         </div>
         <div className="LoginBtn">
-          <Link to="/LoginPage" className="LoginPage">
+          <Link to="/LoginPage" className="LoginPageBtn">
             로그인
           </Link>
         </div>
         <div className="SignUpBtn">
-          <Link to="/SignUpPage" className="SignUpPage">
+          <Link to="/SignUpPage" className="SignUpPageBtn">
             회원가입
           </Link>
         </div>
       </div>
       <div className="navbar-2">
         <div className="navbar-btn">
-          <Link to="/DailySignPage" className="DailySignPage">
-            일상생활 수어
+          <Link to="/Service" className="ServicePageBtn">
+            인식 서비스
           </Link>
-          <Link to="/HospitalSignPage" className="HospitalSignPage">
+          <Link to="/HospitalSignPage" className="HospitalSignPageBtn">
             병원생활 수어
           </Link>
-          <Link to="/SchoolSignPage" className="SchoolSignPage">
-            학교생활 수어
+          <Link to="/BoardPage" className="BoardPageBtn">
+            게시판
           </Link>
-          <Link to="/DownloadPage" className="DownloadPage">
-            자료실
-          </Link>
-          <Link to="/NoticePage" className="NoticePage">
+          <Link to="/NoticePage" className="NoticePageBtn">
             공지사항
-          </Link>
-          <Link to="/Service" className="ServicePage">
-            인식 서비스
           </Link>
         </div>
       </div>

@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../style/MainPage.css";
-import YouTube from "react-youtube";
 
 function MainPage() {
   return (
@@ -28,9 +27,9 @@ function MainPage() {
           <div className="rightSide">
             <h1> 실시간 검색순위 </h1>
             <ol className="real-time-order">
-              <li>안녕하세요</li>
-              <li>반갑습니다</li>
-              <li>밥은 드셨나요?</li>
+              <li>감기에 걸렸어요</li>
+              <li>배가 아파요</li>
+              <li>어디가 아프신가요?</li>
             </ol>
           </div>
         </div>

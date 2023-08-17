@@ -7,7 +7,7 @@ function SignUpPage() {
       className="background"
       style={{
         backgroundImage: "url(./background.png)",
-        backgroundSize: "contain",
+        backgroundSize: "cover",
         width: "100%",
         height: "auto",
         backgroundRepeat: "repeat-y",
